@@ -1,15 +1,23 @@
 {
   "name": "demo-test-javascript",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Resolver ejercicio",
   "main": "index.js",
   "scripts": {
     "t": "jest recursive.test.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jakepys",
+  "license": "GPL-3.0",
   "devDependencies": {
     "jest": "^29.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanPerdomo00/ejercicio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuanPerdomo00/ejercicio/issues"
+  },
+  "homepage": "https://github.com/JuanPerdomo00/ejercicio#readme"
 }
