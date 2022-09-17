@@ -9,30 +9,12 @@
   ==============================================================================================================
 */
 
-let arrNumero = [];
-let contador = 0;
+let arrNumero;
+let contador;
 
-function rev(n) {
-  if (n > 0) {
-    arrNumero.push(n);
-    contador += 1;
-    rev(n - 1);
-  }
+function rev(n) {}
 
-  return "Termine";
-}
-
-function compararContador(contador) {
-  if (contador === arrNumero.length) {
-    return true;
-  }
-  return false;
-}
-
-rev(10);
-console.log(compararContador(contador));
-console.log(arrNumero.length);
-console.log(contador);
+function compararContador(contador) {}
 
 module.exports = {
   rev,
@@ -40,3 +22,4 @@ module.exports = {
   arrNumero,
   contador,
 };
+
